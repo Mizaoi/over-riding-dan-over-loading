@@ -1,0 +1,22 @@
+/**
+ * Contoh Method Overloading.
+ * Memungkinkan penggunaan nama metode yang sama untuk operasi yang serupa 
+ * namun dengan input yang berbeda.
+ */
+class Kalkulator {
+
+    // Overloading: Menjumlahkan dua angka bulat
+    public int tambah(int a, int b) {
+        return a + b;
+    }
+
+    // Overloading: Menjumlahkan tiga angka bulat
+    public int tambah(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    // Overloading: Menjumlahkan dua angka desimal (double)
+    public double tambah(double a, double b) {
+        return a + b;
+    }
+}
