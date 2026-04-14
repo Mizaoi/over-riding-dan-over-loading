@@ -1,0 +1,26 @@
+/**
+ * Contoh Method Overriding.
+ * Subclass memberikan perilaku spesifik untuk metode yang diwarisi dari Parent.
+ */
+
+// Superclass (Induk)
+class Hewan {
+    public void bersuara() {
+        System.out.println("Hewan membuat suara...");
+    }
+}
+
+// Subclass (Anak)
+class Kucing extends Hewan {
+    @Override
+    public void bersuara() {
+        System.out.println("Kucing: Meong! Meong!");
+    }
+}
+
+class Anjing extends Hewan {
+    @Override
+    public void bersuara() {
+        System.out.println("Anjing: Guk! Guk!");
+    }
+}
