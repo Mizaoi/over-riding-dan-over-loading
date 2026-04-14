@@ -4,7 +4,6 @@ class Hewan {
         System.out.println("Hewan membuat suara...");
     }
 }
-
 // Subclass (Anak)
 class Kucing extends Hewan {
     @Override
@@ -12,7 +11,6 @@ class Kucing extends Hewan {
         System.out.println("Kucing: Meong! Meong!");
     }
 }
-
 class Anjing extends Hewan {
     @Override
     public void bersuara() {
